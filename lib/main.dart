@@ -11,17 +11,17 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey[900],
+      backgroundColor: Colors.white30,
       appBar: AppBar(
         title: const Text(
-          "Prison ID Card",
+          "Prison ID",
           style: TextStyle(
-            color: Colors.amberAccent,
+            color: Colors.white,
             letterSpacing: 2.0,
           ),
         ),
         centerTitle: true,
-        backgroundColor: Colors.grey[850],
+        backgroundColor: Colors.black,
         elevation: 0.0,
       ),
       body: const Padding(
@@ -37,7 +37,7 @@ class Home extends StatelessWidget {
             ),
             Divider(
               height: 60.0,
-              color: Colors.grey,
+              color: Colors.black,
             ),
             Text(
               "NAME",
@@ -48,9 +48,9 @@ class Home extends StatelessWidget {
             ),
             SizedBox(height: 10.0),
             Text(
-              "Donald J. Trump",
+              "Donald John Trump",
               style: TextStyle(
-                color: Colors.amberAccent,
+                color: Colors.white,
                 letterSpacing: 2.0,
                 fontSize: 25.0,
                 fontWeight: FontWeight.bold,
@@ -68,7 +68,7 @@ class Home extends StatelessWidget {
             Text(
               "Inmate",
               style: TextStyle(
-                color: Colors.amberAccent,
+                color: Colors.white,
                 letterSpacing: 2.0,
                 fontSize: 25.0,
                 fontWeight: FontWeight.bold,
@@ -86,6 +86,7 @@ class Home extends StatelessWidget {
                   "Sentence Length",
                   style: TextStyle(
                     color: Colors.white,
+                    fontSize: 15.0,
                     fontWeight: FontWeight.bold,
                   ),
                 ),
@@ -94,9 +95,9 @@ class Home extends StatelessWidget {
             Padding(
               padding: EdgeInsets.all(8.0),
               child: Text(
-                "Life imprisonment",
+                "25 years without parole",
                 style: TextStyle(
-                  color: Colors.white70,
+                  color: Colors.white,
                 ),
               ),
             ),
@@ -111,6 +112,7 @@ class Home extends StatelessWidget {
                   "Inmate number",
                   style: TextStyle(
                     color: Colors.white,
+                    fontSize: 15.0,
                     fontWeight: FontWeight.bold,
                   ),
                 ),
@@ -119,9 +121,9 @@ class Home extends StatelessWidget {
             Padding(
               padding: EdgeInsets.all(8.0),
               child: Text(
-                "P01135809",
+                "093713",
                 style: TextStyle(
-                  color: Colors.white70,
+                  color: Colors.white,
                 ),
               ),
             ),
@@ -136,6 +138,7 @@ class Home extends StatelessWidget {
                   "Conviction",
                   style: TextStyle(
                     color: Colors.white,
+                    fontSize: 15.0,
                     fontWeight: FontWeight.bold,
                   ),
                 ),
@@ -144,36 +147,18 @@ class Home extends StatelessWidget {
             Padding(
               padding: EdgeInsets.fromLTRB(8.0, 0.0, 0.0, 0.0),
               child: Text(
-                "Racketeering",
+                "Money laundering",
                 style: TextStyle(
-                  color: Colors.white70,
+                  color: Colors.white,
                 ),
               ),
             ),
             Padding(
               padding: EdgeInsets.fromLTRB(8.0, 1.0, 0.0, 0.0),
               child: Text(
-                "Solicitation",
+                "Bribery",
                 style: TextStyle(
-                  color: Colors.white70,
-                ),
-              ),
-            ),
-            Padding(
-              padding: EdgeInsets.fromLTRB(8.0, 1.0, 0.0, 0.0),
-              child: Text(
-                "Consipracy to impersonate a public officer",
-                style: TextStyle(
-                  color: Colors.white70,
-                ),
-              ),
-            ),
-            Padding(
-              padding: EdgeInsets.fromLTRB(8.0, 1.0, 0.0, 0.0),
-              child: Text(
-                "Forgery",
-                style: TextStyle(
-                  color: Colors.white70,
+                  color: Colors.white,
                 ),
               ),
             ),
